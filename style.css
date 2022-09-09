@@ -7,7 +7,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    text-align: center;
+}
+header{
+    text-align: center;
+}
 h2{
-    font-family: 'idroid';
-
+    font-weight: 300;
+}
+.titulo2{
+    margin: 30px;
+    padding: 5px;
+}
+nav{
+    font-weight: bold;
+    display: inline;
+    background-color: green;
+    margin: 5px;
+}
+nav:hover{
+    background-color: greenyellow;
+}
+a{
+    
+    color: rgb(90, 245, 90);
+    text-decoration: none;
 }
