@@ -7,11 +7,21 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    text-align: center;
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --fonte0: Arial,Helvetica,sans-serif;
+    --fonte1: 'idroid', sans-serif;
 }
+
 header{
-    text-align: center;
+    color: white;
+    background: linear-gradient(#2FA866,#1A5C37);
+ 
 }
 h2{
     font-weight: 300;
@@ -20,7 +30,8 @@ h2{
     margin: 30px;
     padding: 5px;
 }
-nav{
+nav{  
+    text-align: right;
     font-weight: bold;
     display: inline;
     background-color: green;
@@ -33,4 +44,8 @@ a{
     
     color: rgb(90, 245, 90);
     text-decoration: none;
+}
+aside{
+    background-color: var(--cor0);
+    box-sizing: border-box;
 }
