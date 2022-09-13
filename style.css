@@ -40,7 +40,13 @@ h2{
     
 }
 main {
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
     background-color: white;
+}
+img{
+    width: 100%;
 }
 main h1{
     color: var(--cor5);
@@ -67,6 +73,7 @@ a{
     text-decoration: none;
 }
 aside{
+    border-radius: 5px;
     background-color: var(--cor1);
     box-sizing: border-box;
 }
