@@ -73,13 +73,38 @@ main h1{
 
 }
 main h2{
-    color: var(--cor5);
+    color: var(--cor4);
     font-family: var(--fonte-android);
+    font-size: 1.3eem;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 5px;
+}
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
 }
 .pequena {
     display: block;
     margin: auto;
-    width: 50%;
+    max-width: 350px;
 }
 nav{  
     padding: 10px;
