@@ -120,7 +120,7 @@ nav{
     font-weight: bold;
     background-color: var(--cor4);
 }
-nav > a:hover{
+nav >a:hover{
     background-color: var(--cor3);
     color: var(--5);
 }
