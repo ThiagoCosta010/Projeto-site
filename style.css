@@ -37,6 +37,7 @@ header{
     text-align: center;
     min-height: 150px;
     color: white;
+    padding-bottom: 30px;
     background: linear-gradient(#2FA866,#1A5C37);
  
 }
